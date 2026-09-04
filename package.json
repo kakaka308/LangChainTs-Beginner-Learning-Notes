@@ -21,5 +21,8 @@
     "@langchain/openai": "^1.5.11",
     "dotenv": "^17.4.2",
     "langchain": "^1.5.10"
+  },
+  "devDependencies": {
+    "@types/node": "^26.4.1"
   }
 }
