@@ -20,12 +20,10 @@
   "dependencies": {
     "@langchain/openai": "^1.5.11",
     "dotenv": "^17.4.2",
-    "langchain": "^1.5.10"
-<<<<<<< HEAD
+    "langchain": "^1.5.10",
+    "zod": "^4.5.4"
   },
   "devDependencies": {
     "@types/node": "^26.4.1"
-=======
->>>>>>> 77027c729744025f21c23c8bcfdcce783785fbf9
   }
 }
