@@ -1,0 +1,25 @@
+{
+  "name": "langchaints-beginner-learning-notes",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kakaka308/LangChainTs-Beginner-Learning-Notes.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/kakaka308/LangChainTs-Beginner-Learning-Notes/issues"
+  },
+  "homepage": "https://github.com/kakaka308/LangChainTs-Beginner-Learning-Notes#readme",
+  "dependencies": {
+    "@langchain/openai": "^1.5.11",
+    "dotenv": "^17.4.2",
+    "langchain": "^1.5.10"
+  }
+}
