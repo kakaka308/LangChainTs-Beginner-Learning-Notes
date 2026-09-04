@@ -7,6 +7,7 @@ import {ChatOpenAI} from "@langchain/openai";
 import * as dotenv from "dotenv";
 dotenv.config();
 
+// 04 create model
 const model = new ChatOpenAI({
   apiKey: "sk-ws-H.PMRRYHX.gwPG.MEQCIHYvLFKWJQL5ImidMwsZtRFibq3AWZi4JXsajb7yoo2TAiA7qymfmHsV646MQvLCIcOra0iBsIw0FgA2nAhO9IsQsg",
   configuration: {
