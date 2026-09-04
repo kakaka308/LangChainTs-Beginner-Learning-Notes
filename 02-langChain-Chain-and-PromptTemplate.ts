@@ -6,9 +6,9 @@ import * as dotenv from "dotenv";
 dotenv.config();
 
 const model = new ChatOpenAI({
-  apiKey: "sk-ws-H.PMRRYHX.gwPG.MEQCIHYvLFKWJQL5ImidMwsZtRFibq3AWZi4JXsajb7yoo2TAiA7qymfmHsV646MQvLCIcOra0iBsIw0FgA2nAhO9IsQsg",
+  apiKey: process.env.DASHSCOPE_API_KEY,
   configuration: {
-    baseURL: "https://llm-bf3gyz3ire42nhe5.cn-beijing.maas.aliyuncs.com/compatible-mode/v1",  // 阿里云百炼提供的 OpenAI 兼容地址
+    baseURL: process.env.BASE_URL,
   },
   modelName: "qwen3.8-27b",
   temperature: 0.7,
