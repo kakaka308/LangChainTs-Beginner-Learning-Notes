@@ -38,7 +38,7 @@ async function main(): Promise<void> {
   });
   // 04 Cheerio 加载器抓取目标网页内容
   const loader = new CheerioWebBaseLoader(
-    "https://raw.githubusercontent.com/langchain-ai/langchain/master/README.md"
+    "https://js.langchaincn.com/docs"
   );
   const docs = await loader.load();
   // console.log("docs", docs);
@@ -81,7 +81,7 @@ async function main(): Promise<void> {
     input: "What is LCEL?",
   });
   // 11
-  console.log("回答结果：", res.answer);
+  console.log("回答结果：", res);
   // 12 关闭连接池
   await vectorstore.end();
 }
